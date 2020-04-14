@@ -1,11 +1,9 @@
 <?php
-namespace  AppBundle\Controller;
-
-
+namespace  App\Controller\Sauce;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class MovieController extends Controller
+class Sauce extends AbstractController
 {
     /**
      * @Route("movie/new", name="movie_new")
